@@ -1,0 +1,13 @@
+@import url("main.css");
+table{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th{
+    height: 100%;
+}
+th:hover{
+    background-color: #515151;
+}
