@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
-        <head>
-                <title>PlaceHolder</title>
-                <script src="https://www.w3schools.com/lib/w3.js"></script>
-        </head>
-        <body>
-                <div w3-include-html="header.html"></div>
-                <div w3-include-html="nav.html"></div>
-                <script>w3.includeHTML();</script>
-                Hello World
+    <head>
+        <title>PlaceHolder</title>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    </head>
+    <body>
+        <div class"top">
+            <div class="logo" w3-include-html="header.html"></div>
+            <div class="nav" w3-include-html="nav.html"></div>
+            <script>w3.includeHTML();</script>
+        </div>
+        <div class="content">
+            <p>Hello World this me like life should be</p>
+        </div>
 
-                <div w3-include-html="footer.html"></div>
-                <script>w3.includeHTML();</script>
-        </body>
+        <div w3-include-html="footer.html"></div>
+        <script>w3.includeHTML();</script>
+    </body>
 </html>
