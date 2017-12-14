@@ -1,0 +1,14 @@
+.logo table{
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.logo th{
+    height: 100%;
+}
+.logo img{
+    font-size:0;
+    float: left;
+    vertical-align: middle;
+}
