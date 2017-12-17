@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>JPG Online</title>
+        <title>JPGDrone</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -9,36 +9,26 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        <style>
-            html, body{
-                height: 100%;
-                background-color: aliceblue;
-            }
-        </style>
     </head>
     <body>
+        <div w3-include-html="nav.html"></div>
+        <script>w3.includeHTML();</script>
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
             <strong>Hello There!</strong> This website is still being built, there may be some bugs but we can call them 'Features' for now
         </div>
-        <div class="h-100 row align-items-center" style="margin-left: 0;margin-right: 0;">
-            <div class="col">
-                <div class="contrainer-fluid">
-                    <div class="jumbotron" style="text-align: center; background-color: aliceblue;">
-                        <h1 class="display-3">JPG Online</h1>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida, sapien tincidunt mattis varius, erat dolor dignissim dolor,<br>at maximus ligula est nec magna. In venenatis, magna vel tempor imperdiet, </p>
-                        <hr class="my-2">
-                        <p>It uses utility classes for typography and
-                            spacing to space content out within the larger container.</p>
-                        <p class="lead">
-                            <a class="btn btn-primary btn-lg" href="/jpgdrone/index.html" role="button">JPGDrone</a>
-                            <a class="btn btn-primary btn-lg" href="#!" role="button">JPGDev</a>
-                        </p>
-                    </div>
+        <div class="contrainer">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-3">Fluid jumbotron</h1>
+                    <p class="lead">This is a modified jumbotron that occupies
+                        the entire horizontal space of its parent.</p>
                 </div>
             </div>
         </div>
+        <div w3-include-html="footer.html"></div>
+        <script>w3.includeHTML();</script>
     </body>
 </html>
