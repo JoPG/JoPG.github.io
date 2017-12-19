@@ -1,3 +1,4 @@
+<!--https://codepen.io/tmrDevelops/pen/vOPZBv-->
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -12,11 +13,16 @@
         <style>
             html, body{
                 height: 100%;
-                background-color: aliceblue;
+            }
+            canvas {
+                width: 100%;
+                height: 100%;
+                position: absolute;
             }
         </style>
     </head>
     <body>
+        <canvas id="canv" width="32" height="32"><script src="js/landingColor.js"></script></canvas>
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -27,7 +33,7 @@
             <div class="col">
                 <div class="contrainer-fluid">
                     <div class="jumbotron" style="text-align: center; background-color: aliceblue;">
-                        <h1 class="display-3">JPG Online</h1>
+                        <h1 class="display-3">---</h1>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida, sapien tincidunt mattis varius, erat dolor dignissim dolor,<br>at maximus ligula est nec magna. In venenatis, magna vel tempor imperdiet, </p>
                         <hr class="my-2">
                         <p>It uses utility classes for typography and
