@@ -1,52 +1,86 @@
-<!--https://codepen.io/tmrDevelops/pen/vOPZBv-->
 <!DOCTYPE HTML>
-<html>
+<html style="color: #f4f1d0;">
     <head>
-        <title>JPG Online</title>
+        <!--        <title>Connect Three Drone</title>-->
+        <title>JPGDrone</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <script src="https://www.w3schools.com/lib/w3.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/header.css">
         <style>
-            html, body{
-                height: 100%;
-                color: white;
+            #nav{
+                color: #f4f1d0;
             }
-            canvas {
-                width: 100%;
-                height: 100%;
-                position: absolute;
+            #nav a{
+                color: #f4f1d0;
             }
         </style>
     </head>
-    <body>
-        <canvas id="canv" width="32" height="32"><script src="js/landingColor.js"></script></canvas>
-        <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            <strong>Hello There!</strong> This website is still being built, there may be some bugs but we can call them 'Features' for now
-        </div>
-        <div class="h-100 row align-items-center" style="margin-left: 0;margin-right: 0;">
-            <div class="col">
-                <div class="contrainer">
-                    <div class="d-flex justify-content-center">
-                        <div class="jumbotron" style="text-align: center; background-color: rgba(0, 0, 0, 0.3);">
-                            <h1 class="display-3">JPG Online</h1>
-                            <p class="lead">Online collection of work from the portfolio of JPG</p>
-                            <hr class="my-2">
-                            <p>A university student studying computer science with a keyboard and mavic with a passion for programming and photography</p>
-                            <p class="lead">
-                                <a class="btn btn-primary btn-lg" href="/jpgdrone/index.html" role="button">JPGDrone</a>
-                                <a class="btn btn-primary btn-lg" href="/jpgdev/index.html" role="button">JPGDev</a>
-                            </p>
+    <body style="background: #222222;">
+        <header id=verse0 class="hero" style="color: #f4f1d0;">
+            <div class="header">
+                <img src="/images/mavic.png" height="200px" alt="LOGO">
+                <br><br>
+                <h3 style="padding-right: 15px;">JPG Drone</h3>
+            </div>
+        </header>
+        <nav id="nav" class="navbar fixed-top" style="background: none;" role="navigation">
+            <h3 class="navbar-brand">JPG Network</h3>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#verse0" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#verse1" class="nav-link">Who Am I</a></li>
+                <li class="nav-item"><a href="#verse2" class="nav-link">My Work</a></li>
+            </ul>
+        </nav>
+        <script src="smooth.js"></script>
+        <div data-target="#navbar-nav" data-offset="0" style="color: #f4f1d0">
+            <div id="verse1" style="position:relative; height:100vh;">
+                <div class="h-100 row align-items-center" style="margin-left: 0;margin-right: 0;">
+                    <div class="col">
+                        <div class="d-flex justify-content-center">
+                            <div class="jumbotron jumbotron-fluid" style="text-align: center; background: none;">
+                                <div class="container">
+                                    <h1 class="display-5">Fluid jumbotron 1</h1>
+                                    <p class="lead">This is a modified jumbotron that occupies
+                                        the entire horizontal space of its parent.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div id="verse2" class="smooth-scroll" style="position:relative; min-height:100vh;">
+                <div class="center">
+                    <div class="thumb-post">
+                        <!--
+<img src="https://images.unsplash.com/photo-1513234957489-65d9c12a4a4d?dpr=1&auto=format&fit=crop&w=767&h=431&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" class="img-thumbnail" alt="Responsive image" style="background: #f4f1d0;"><br>
+<img src="https://images.unsplash.com/photo-1513386273606-4c7ff194e00c?auto=format&fit=crop&w=750&q=80" class="img-thumbnail" alt="Responsive image" style="background: #f4f1d0;">
+-->
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <footer class="bg-dark text-white mt-4">
+            <div class="container-fluid py-3">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>JPG Drone</h5></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">I stay at the bottom of the viewport! <span class="small"><br>Unless the page content pushes me further.</span></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3 text-right small align-self-end">©2017 Brand, Inc.<br>Icons made by Freepik from www.flaticon.com</div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
