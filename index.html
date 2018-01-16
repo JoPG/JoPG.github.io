@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html style="color: #f4f1d0;">
     <head>
+        <!--        https://bootsnipp.com/snippets/33Qjo-->
         <!--        <title>Connect Three Drone</title>-->
         <title>JPGDrone</title>
         <meta charset="utf-8">
@@ -11,6 +12,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/header.css">
         <style>
             #nav{
@@ -19,22 +21,27 @@
             #nav a{
                 color: #f4f1d0;
             }
+            #nav a:hover{
+                color: #c6c3a3;
+                background: none;
+            }
         </style>
     </head>
     <body style="background: #222222;">
         <header id=verse0 class="hero" style="color: #f4f1d0;">
             <div class="header">
-                <img src="/images/mavic.png" height="200px" alt="LOGO">
+                <img src="/images/mavic.svg" height="300px" alt="LOGO">
                 <br><br>
-                <h3 style="padding-right: 15px;">JPG Drone</h3>
+                <h3 style="padding-right: 10px;">JPG Drone</h3>
+                <p style="padding-right: 13px; font-size: 16px;">Control Your Perspective </p>
             </div>
         </header>
-        <nav id="nav" class="navbar fixed-top" style="background: none;" role="navigation">
-            <h3 class="navbar-brand">JPG Network</h3>
+        <nav id="nav" class="navbar navbar-fixed-top" style="background: none; font-size: 20px;" role="navigation" width=100%;>
+            <h3 class="navbar-brand" style="font-size: 30px">JPG Network</h3>
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="#verse0" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#verse1" class="nav-link">Who Am I</a></li>
-                <li class="nav-item"><a href="#verse2" class="nav-link">My Work</a></li>
+                <li class="nav-item"><a href="#verse1" class="nav-link">The Pilot</a></li>
+                <li class="nav-item"><a href="#verse2" class="nav-link">The Pilot's Work</a></li>
             </ul>
         </nav>
         <script src="smooth.js"></script>
@@ -44,11 +51,13 @@
                     <div class="col">
                         <div class="d-flex justify-content-center">
                             <div class="jumbotron jumbotron-fluid" style="text-align: center; background: none;">
-                                <div class="container">
-                                    <h1 class="display-5">Fluid jumbotron 1</h1>
-                                    <p class="lead">This is a modified jumbotron that occupies
-                                        the entire horizontal space of its parent.</p>
-                                </div>
+                                <img class="" src="/images/take-off-mavic.svg" height="200px;" alt="Generic placeholder image">
+                                <h2 class="display-5">The Pilot</h2>
+                                <p style="max-width: 75%; margin: auto">
+
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis feugiat vehicula. Pellentesque in ante at nunc lobortis ultricies ac id lectus. Vestibulum feugiat est massa, ut congue justo aliquet id. Suspendisse sem dui, congue id nisi in, fringilla sagittis libero. Aliquam eget lorem sodales, elementum odio eget, pharetra tellus. Phasellus at sagittis tortor. Maecenas .<br>
+                                    <br>
+                                    Donec tempor tincidunt velit, ac pharetra massa tempus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Vestibulum eros massa, tempus cursus varius non, sollicitudin a elit. Vivamus malesuada non erat at malesuada. Nullam vestibulum dignissim massa, at sollicitudin neque efficitur eu. Duis blandit sollicitudin justo. Quisque convallis mauris ac sem eleifend interdum. Fusce rhoncus convallis justo, sed lobortis orci finibus ac. Aenean tempus tortor massa. Cras tristique, felis eget bibendum lobortis, nunc mauris tempor arcu, at aliquam arcu risus et est. </p>
                             </div>
                         </div>
                     </div>
@@ -56,12 +65,8 @@
             </div>
             <div id="verse2" class="smooth-scroll" style="position:relative; min-height:100vh;">
                 <div class="center">
-                    <div class="thumb-post">
-                        <!--
-<img src="https://images.unsplash.com/photo-1513234957489-65d9c12a4a4d?dpr=1&auto=format&fit=crop&w=767&h=431&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" class="img-thumbnail" alt="Responsive image" style="background: #f4f1d0;"><br>
-<img src="https://images.unsplash.com/photo-1513386273606-4c7ff194e00c?auto=format&fit=crop&w=750&q=80" class="img-thumbnail" alt="Responsive image" style="background: #f4f1d0;">
--->
-                    </div>
+                    <div w3-include-html="/includes/bodyMain.html"></div>
+                    <script>w3.includeHTML();</script>
                 </div>
             </div>
         </div>
@@ -76,9 +81,12 @@
                     <div class="col-md-3"></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">I stay at the bottom of the viewport! <span class="small"><br>Unless the page content pushes me further.</span></div>
+                    <div class="col-md-6">Portfolio <span class="small"><br>Control Your Perspective</span></div>
                     <div class="col-md-3"></div>
-                    <div class="col-md-3 text-right small align-self-end">©2017 Brand, Inc.<br>Icons made by Freepik from www.flaticon.com</div>
+                    <div class="col-md-3 text-right small align-self-end">©2017 Brand, Inc.<br>
+                        Website designed and built by JPG Dev<br>
+                        Icons made by Freepik from www.flaticon.com<br>
+                        Gallery coded with <i class="fa fa-heart red"></i> by <a href="http://www.nabeel.co.in" target="_blank">Nabeel Kondotty</a></div>
                 </div>
             </div>
         </footer>
