@@ -1,0 +1,48 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+/*
+header{
+position: relative;
+width: 100%;
+min-height: auto;
+height: 100%;
+text-align: center;
+color: #fff;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
+*/
+
+#hero{
+    background-color: #7bb24d;
+    background-size:cover;
+    position:relative;
+    height:100vh;
+}
+
+.header{
+    position:absolute;
+    top:50%;
+    text-align:center;
+    width:100%;
+    font-size:36px;
+    -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);  
+
+}
+
+#content{
+    padding:100px 50px;
+    text-align:center;
+    width:80%;
+    margin:0px auto;
+    background: #222222;
+}
