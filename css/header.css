@@ -3,6 +3,7 @@ html {
     height: 100%;
     width: 100%;
     margin: 0;
+    color: #f4f1d0;
 }
 /*
 header{
@@ -45,4 +46,29 @@ background-size: cover;
     width:80%;
     margin:0px auto;
     background: #222222;
+}
+
+#nav{
+    background: none; 
+    border: none;
+    box-shadow: none;
+}
+.navbar-brand{
+    color: #f4f1d0;
+}
+#navbar{
+    border:none;
+}
+.navbar-default .navbar-toggle{
+    border-color: #f4f1d0;
+    background: none;
+}
+.navbar-default .navbar-toggle:hover{
+    border-color: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #f4f1d0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background: none;
 }
