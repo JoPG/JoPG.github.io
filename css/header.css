@@ -5,21 +5,6 @@ html {
     margin: 0;
     color: #f4f1d0;
 }
-/*
-header{
-position: relative;
-width: 100%;
-min-height: auto;
-height: 100%;
-text-align: center;
-color: #fff;
-background-position: center;
--webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
--o-background-size: cover;
-}
-*/
 
 .hero{
     background-color: #7bb24d;
