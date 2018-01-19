@@ -56,3 +56,8 @@ html {
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
     background: none;
 }
+
+.modal-content{
+        top: 200px;
+        background: none;
+    }
