@@ -42,6 +42,8 @@
 
             </div>
         </header>
+
+
         <nav id="nav" class="navbar navbar-default navbar-fixed-top" role="navigation" style="">
             <div class="container">
                 <div class="navbar-header">
@@ -58,37 +60,41 @@
                         <li><a href="#verse0">Home</a></li>
                         <li><a href="#verse1">The Pilot</a></li>
                         <li><a href="#verse2">Pilot's Images</a></li>
-                        <li><a href="#verse3">Pilot's Videos</a></li>
+<!--                        <li><a href="#verse3">Pilot's Videos</a></li>-->
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
         </nav>
-
-
         <script src="smooth.js"></script>
+
+        <style>
+            .vertical-center {
+                min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+                min-height: 100vh; /* These two lines are counted as one :-)       */
+
+                display: flex;
+                align-items: center;
+            }
+        </style>
         <div id="verse1" style="position:relative; min-height:100%;">
-            <div class="h-100 row align-items-center" style="margin-left: 0;margin-right: 0;">
-                <div class="col">
-                    <div class="d-flex justify-content-center">
-                        <div class="jumbotron jumbotron-fluid" style="text-align: center; background: none; max-height: 1000px">
-                            <img class="" src="/images/take-off-mavic.svg" height="200px;" alt="Generic placeholder image">
-                            <h2 class="display-5">The Pilot</h2>
-                            <p style="lead">
+            <div class="jumbotron vertical-center" style="text-align: center; background: none;">
+                <div class="container">
+                    <img class="" src="/images/take-off-mavic.svg" height="200px;" alt="Generic placeholder image">
+                    <h2 class="display-5">The Pilot</h2>
+                    <p style="lead">
 
-                                What started out as stupid suggestion from a mate has turned into something amazing. Drone photography for me is more than just a hobby it gives us the ability to see our world from a different perspective, turning the simplest object into art that fills us with bewonderment.<br><br>
-                                
-                                The name's Joseph<br>I guess this is the part where I list off all my achievements and make bold statements about, who I am as a person but everyone says that, so I'm just going to keep it simple.
-                                I am now attending University studying Computer Science at RMIT and loving it. In conjunction with my studies I am employed at Cottee Parker Architects where I hold the position of IT specialist/support/guru.
-                                <br>
-                                I use drone photography as a way to escape the my world of critical thinking and explore my creative thinking
+                        What started out as stupid suggestion from a mate has turned into something amazing. Drone photography for me is more than just a hobby it gives us the ability to see our world from a different perspective, turning the simplest object into art that fills us with bewonderment.<br><br>
 
-                            </p>
-                        </div>
-                    </div>
+                        The name's Joseph<br>I guess this is the part where I list off all my achievements and make bold statements about, who I am as a person but everyone says that, so I'm just going to keep it simple.
+                        I am now attending University studying Computer Science at RMIT and loving it. In conjunction with my studies I am employed at Cottee Parker Architects where I hold the position of IT specialist/support/guru.
+                        <br>
+                        I use drone photography as a way to escape the my world of critical thinking and explore my creative thinking
+
+                    </p>
                 </div>
             </div>
         </div>
-        <div id="verse2" class="smooth-scroll" style="position:relative; min-height:100%; top: 100px;">
+        <div id="verse2" class="smooth-scroll" style="position:relative; min-height:100%;">
             <div class="center">
                 <div w3-include-html="/includes/bodyMain.html"></div>
                 <script>w3.includeHTML();</script>
