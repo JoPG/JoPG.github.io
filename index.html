@@ -5,9 +5,25 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://www.w3schools.com/lib/w3.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">s
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+        <!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!--
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map"></script>
+-->
+
         <link rel="stylesheet" href="/css/header.css">
         <style>
             #nav{
@@ -36,26 +52,37 @@
         </header>
 
 
-        <nav id="nav" class="navbar navbar-default navbar-fixed-top" role="navigation" style="">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed custom-toggler" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#verse0">JPG Network</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#verse0">Home</a></li>
-                        <li><a href="#verse1">The Pilot</a></li>
-                        <li><a href="#verse2">Pilot's Images</a></li>
-                        <li><a href="#verse3">Pilot's Videos</a></li>
-                        <li><a href="#verse4">Reach Out</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
+        <!--
+<nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-light bg-light" role="navigation" style="">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<a class="navbar-brand" href="#verse0">JPG Network</a>
+<div id="navbar" class="collapse navbar-collapse">
+<ul class="navbar-nav mr-auto mt-2 mt-md-0">
+<li><a class="nav-link" href="#verse0">Home</a></li>
+<li><a class="nav-link" href="#verse1">The Pilot</a></li>
+<li><a class="nav-link" href="#verse2">Pilot's Images</a></li>
+<li><a class="nav-link" href="#verse3">Pilot's Videos</a></li>
+<li><a class="nav-link" href="#verse4">Reach Out</a></li>
+</ul>
+</div>
+<script src="smooth.js"></script>
+-->
+
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#verse0">JPG Network</a>
+            <div class="collapse navbar-collapse" id="navbar"  style="background-color: none;">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#verse0">Home<span></span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#verse1">Home<span></span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#verse2">Home<span></span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#verse3">Home<span></span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#verse4">Home<span></span></a></li>
+                </ul>
             </div>
         </nav>
         <script src="smooth.js"></script>
@@ -83,8 +110,6 @@
                         I guess this is the part where I make bold statements about who I am as a person but I'm just going to keep it simple. I am currently attending RMIT University studying computer science and loving it. In conjunction with my studies, I am employed at Cottee Parker Architects where I hold the position of IT specialist/support/guru.
 
                     </p>
-                    <a class="d-flex align-self-center mr-3" target="_blank" href="https://unsplash.com/@jpgdrone"><img class="" src="/images/photo-camera.svg" height="130px;" style="padding-top: 50px; padding-left: 10px; padding-right: 50px;"></a>
-                    <a class="d-flex align-self-center mr-3" target="_blank" href="https://www.youtube.com/channel/UC79hGUjYH5jrMqmqAZPoECg?view_as=subscriber"><img class="" src="/images/youtube.svg" height="130px;" style="padding-top: 50px; padding-left: 50px; padding-right: 10px;"></a>
 
                 </div>
             </div>
@@ -146,5 +171,22 @@
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script>
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+            $(this).ekkoLightbox({
+                alwaysShowClose: true,
+                onShown: function() {
+                    console.log('Checking our the events huh?');
+                },
+                onNavigate: function(direction, itemIndex)
+                console.log('Navigating '+direction+'. Current item: '+itemIndex);
+            }
+                                 ...
+                                 });
+        </script>
     </body>
+
 </html>

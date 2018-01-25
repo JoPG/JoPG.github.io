@@ -1,92 +1,87 @@
 <!--http://ashleydw.github.io/lightbox/-->
 <link rel="stylesheet" href="/css/gallary-css.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map"></script>
-<div class="row justify-content-center">
-    <div class="col-md-8">
+<div class="container gal-container">
+    <div class="col-md-10" width="100%">
         <div class="row">
-            <a href="https://www.youtube.com/embed/xuiuHIRoYUA" data-toggle="lightbox" data-gallery="youtubevideos" class="col-sm-4">
-                <img src="https://img.youtube.com/vi/xuiuHIRoYUA/maxres3.jpg" class="img-fluid">
+            <a href="https://www.youtube.com/watch?v=xuiuHIRoYUA" data-toggle="lightbox" data-gallery="youtube" class="col-sm-4">
+                <img src="https://img.youtube.com/vi/xuiuHIRoYUA/mq3.jpg" class="img-fluid">
+            </a>
+            <a href="https://www.youtube.com/watch?v=xuiuHIRoYUA" data-toggle="lightbox" data-gallery="youtube" class="col-sm-4">
+                <img src="https://img.youtube.com/vi/xuiuHIRoYUA/mq3.jpg" class="img-fluid">
+            </a>
+            <a href="https://www.youtube.com/watch?v=xuiuHIRoYUA" data-toggle="lightbox" data-gallery="youtube" class="col-sm-4">
+                <img src="https://img.youtube.com/vi/xuiuHIRoYUA/mq3.jpg" class="img-fluid">
             </a>
         </div>
         <div class="row">
-            
+
         </div>
     </div>
 </div>
-<script>
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    });
-</script>
 <!--
 <section>
-    <div class="container gal-container">
-        <div class="col-md-12 col-sm-12 co-xs-12 gal-item">
-            <div class="box">
-                <a href="#" data-toggle="modal" data-target="#v1">
-                    <img src="https://img.youtube.com/vi/xuiuHIRoYUA/maxres3.jpg">
-                </a>
-                <div class="modal fade" id="v1" tabindex="-1" role="dialog">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content" >
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                            <div class="modal-body">
-                                <iframe class="embed-responsive embed-responsive-16by9 col-xs-12 text-center" src="https://www.youtube.com/embed/xuiuHIRoYUA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-md-12 description">
-                                <h4>Apollo Bay Breakwall</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 col-sm-12 co-xs-12 gal-item">
-            <div class="box">
-                <a href="#" data-toggle="modal" data-target="#2">
-                    <img src="https://images.unsplash.com/photo-1513386273606-4c7ff194e00c?auto=format&fit=crop&w=1500&q=80">
-                </a>
-                <div class="modal fade" id="2" tabindex="-1" role="dialog">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                            <div class="modal-body">
-                                <img src="https://images.unsplash.com/photo-1513386273606-4c7ff194e00c?auto=format&fit=crop&w=1500&q=80">
-                            </div>
-                            <div class="col-md-12 description">
-                                <h4>The Address Play Equitment</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 col-sm-12 co-xs-12 gal-item">
-            <div class="box">
-                <a href="#" data-toggle="modal" data-target="#3">
-                    <img src="https://images.unsplash.com/photo-1513235338807-267f06d8a296?auto=format&fit=crop&w=891&q=80">
-                </a>
-                <div class="modal fade" id="3" tabindex="-1" role="dialog">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                            <div class="modal-body">
-                                <img src="https://images.unsplash.com/photo-1513235338807-267f06d8a296?auto=format&fit=crop&w=891&q=80">
-                            </div>
-                            <div class="col-md-12 description">
-                                <h4>Rough Meets Calm</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="container gal-container">
+<div class="col-md-12 col-sm-12 co-xs-12 gal-item">
+<div class="box">
+<a href="#" data-toggle="modal" data-target="#v1">
+<img src="https://img.youtube.com/vi/xuiuHIRoYUA/maxres3.jpg">
+</a>
+<div class="modal fade" id="v1" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+<div class="modal-content" >
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<div class="modal-body">
+<iframe class="embed-responsive embed-responsive-16by9 col-xs-12 text-center" src="https://www.youtube.com/embed/xuiuHIRoYUA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+<div class="col-md-12 description">
+<h4>Apollo Bay Breakwall</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12 col-sm-12 co-xs-12 gal-item">
+<div class="box">
+<a href="#" data-toggle="modal" data-target="#2">
+<img src="https://images.unsplash.com/photo-1513386273606-4c7ff194e00c?auto=format&fit=crop&w=1500&q=80">
+</a>
+<div class="modal fade" id="2" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<div class="modal-body">
+<img src="https://images.unsplash.com/photo-1513386273606-4c7ff194e00c?auto=format&fit=crop&w=1500&q=80">
+</div>
+<div class="col-md-12 description">
+<h4>The Address Play Equitment</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12 col-sm-12 co-xs-12 gal-item">
+<div class="box">
+<a href="#" data-toggle="modal" data-target="#3">
+<img src="https://images.unsplash.com/photo-1513235338807-267f06d8a296?auto=format&fit=crop&w=891&q=80">
+</a>
+<div class="modal fade" id="3" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<div class="modal-body">
+<img src="https://images.unsplash.com/photo-1513235338807-267f06d8a296?auto=format&fit=crop&w=891&q=80">
+</div>
+<div class="col-md-12 description">
+<h4>Rough Meets Calm</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 -->
