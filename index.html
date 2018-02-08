@@ -5,24 +5,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://www.w3schools.com/lib/w3.js"></script>
-        <!--
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
--->
-
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-        <!--
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map"></script>
--->
 
         <link rel="stylesheet" href="/css/header.css">
         <style>
@@ -37,6 +25,8 @@
                 background: none;
             }
         </style>
+        <!-- Internal Styles -->
+
     </head>
     <body style="background: #222222;">
         <header id=verse0 class="hero" style="color: #f4f1d0;">
@@ -60,31 +50,35 @@
 <a class="navbar-brand" href="#verse0">JPG Network</a>
 <div id="navbar" class="collapse navbar-collapse">
 <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-<li><a class="nav-link" href="#verse0">Home</a></li>
-<li><a class="nav-link" href="#verse1">The Pilot</a></li>
-<li><a class="nav-link" href="#verse2">Pilot's Images</a></li>
-<li><a class="nav-link" href="#verse3">Pilot's Videos</a></li>
-<li><a class="nav-link" href="#verse4">Reach Out</a></li>
+<li class="nav-item"><a class="nav-link" href="#verse0">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#verse1">The Pilot</a></li>
+<li class="nav-item"><a class="nav-link" href="#verse2">Pilot's Images</a></li>
+<li class="nav-item"><a class="nav-link" href="#verse3">Pilot's Videos</a></li>
+<li class="nav-item"><a class="nav-link" href="#verse4">Reach Out</a></li>
 </ul>
 </div>
 <script src="smooth.js"></script>
 -->
 
-        <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav id="nav" class="navbar fixed-top navbar-expand-md bg-faded ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <div style="color: #f4f1d0">
+                    <i class="fas fa-bars fa-lg"></i>
+                </div>
             </button>
-            <a class="navbar-brand" href="#verse0">JPG Network</a>
-            <div class="collapse navbar-collapse" id="navbar"  style="background-color: none;">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#verse0">Home<span></span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#verse1">Home<span></span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#verse2">Home<span></span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#verse3">Home<span></span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#verse4">Home<span></span></a></li>
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item"><a class="nav-link" href="#verse0">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#verse1">The Pilot</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#verse2">Pilot's Images</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#verse3">Pilot's Videos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#verse4">Reach Out</a></li>
                 </ul>
             </div>
         </nav>
+
         <script src="smooth.js"></script>
 
         <style>
@@ -188,5 +182,4 @@
                                  });
         </script>
     </body>
-
 </html>

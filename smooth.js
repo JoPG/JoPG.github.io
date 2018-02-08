@@ -1,4 +1,4 @@
-$("#nav ul li a[href^='#']").on('click', function(e) {
+$("#nav ul .nav-item .nav-link[href^='#']").on('click', function(e) {
    // prevent default anchor click behavior
    e.preventDefault();
 
