@@ -13,6 +13,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="/css/header.css">
+        <script src="/gal.js"></script>
         <style>
             #nav{
                 color: #f4f1d0;
@@ -40,25 +41,6 @@
 
             </div>
         </header>
-
-
-        <!--
-<nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-light bg-light" role="navigation" style="">
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<a class="navbar-brand" href="#verse0">JPG Network</a>
-<div id="navbar" class="collapse navbar-collapse">
-<ul class="navbar-nav mr-auto mt-2 mt-md-0">
-<li class="nav-item"><a class="nav-link" href="#verse0">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="#verse1">The Pilot</a></li>
-<li class="nav-item"><a class="nav-link" href="#verse2">Pilot's Images</a></li>
-<li class="nav-item"><a class="nav-link" href="#verse3">Pilot's Videos</a></li>
-<li class="nav-item"><a class="nav-link" href="#verse4">Reach Out</a></li>
-</ul>
-</div>
-<script src="smooth.js"></script>
--->
 
         <nav id="nav" class="navbar fixed-top navbar-expand-md bg-faded ">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,8 +90,8 @@
                 </div>
             </div>
         </div>
-        <div id="verse2" class="smooth-scroll" style="position:relative; min-height:100%;">
-            <div class="center">
+        <div id="verse2" class="smooth-scroll container h-100" style="position:relative;">
+            <div class="row h-100 justify-content-center align-items-center">
                 <div w3-include-html="/includes/bodyMain.html"></div>
                 <script>w3.includeHTML();</script>
             </div>
@@ -165,21 +147,6 @@
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-        <script>
-            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                event.preventDefault();
-                $(this).ekkoLightbox();
-            });
-            $(this).ekkoLightbox({
-                alwaysShowClose: true,
-                onShown: function() {
-                    console.log('Checking our the events huh?');
-                },
-                onNavigate: function(direction, itemIndex)
-                console.log('Navigating '+direction+'. Current item: '+itemIndex);
-            }
-                                 ...
-                                 });
-        </script>
+
     </body>
 </html>
