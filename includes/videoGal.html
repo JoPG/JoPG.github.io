@@ -1,87 +1,56 @@
 <!--http://ashleydw.github.io/lightbox/-->
+<!--
 <link rel="stylesheet" href="/css/gallary-css.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <div class="container gal-container">
-    <div class="col-md-10" width="100%">
-        <div class="row">
-            <a href="https://www.youtube.com/watch?v=xuiuHIRoYUA" data-toggle="lightbox" data-gallery="youtube" class="col-sm-4">
-                <img src="https://img.youtube.com/vi/xuiuHIRoYUA/mq3.jpg" class="img-fluid">
-            </a>
-            <a href="https://www.youtube.com/watch?v=xuiuHIRoYUA" data-toggle="lightbox" data-gallery="youtube" class="col-sm-4">
-                <img src="https://img.youtube.com/vi/xuiuHIRoYUA/mq3.jpg" class="img-fluid">
-            </a>
-            <a href="https://www.youtube.com/watch?v=xuiuHIRoYUA" data-toggle="lightbox" data-gallery="youtube" class="col-sm-4">
-                <img src="https://img.youtube.com/vi/xuiuHIRoYUA/mq3.jpg" class="img-fluid">
-            </a>
-        </div>
-        <div class="row">
+<div class="col-md-10" width="100%">
+<div class="row">
+<a href="https://www.youtube.com/watch?v=xuiuHIRoYUA" data-toggle="lightbox" data-gallery="youtube" class="col-sm-4">
+<img src="https://img.youtube.com/vi/xuiuHIRoYUA/mq3.jpg" class="img-fluid">
+</a>
+<a href="https://www.youtube.com/watch?v=xuiuHIRoYUA" data-toggle="lightbox" data-gallery="youtube" class="col-sm-4">
+<img src="https://img.youtube.com/vi/xuiuHIRoYUA/mq3.jpg" class="img-fluid">
+</a>
+<a href="https://www.youtube.com/watch?v=xuiuHIRoYUA" data-toggle="lightbox" data-gallery="youtube" class="col-sm-4">
+<img src="https://img.youtube.com/vi/xuiuHIRoYUA/mq3.jpg" class="img-fluid">
+</a>
+</div>
+<div class="row">
 
-        </div>
+</div>
+</div>
+</div>
+-->
+<!--https://codepen.io/JacobLett/pen/MOJPRW-->
+<script src="/gal-vid.js"></script>
+<div class="container d-flex justify-content-center">
+
+    <div class="v-gallery d-flex flex-wrap justify-content-center" style="">
+        <img src="https://img.youtube.com/vi/xuiuHIRoYUA/mq3.jpg" alt="" data-backdrop="false" data-toggle="modal" data-bigimage="https://www.youtube.com/watch?v=xuiuHIRoYUA" data-target="#vidModel" class="img-fluid">
+        <img src="https://dummyimage.com/200x100/fff/000&text=B" alt="" data-toggle="modal" data-backdrop="false" data-bigimage="https://dummyimage.com/2000x1000/000/fff&text=B"  data-target="#vidModel" class="img-fluid">
+        <img src="https://dummyimage.com/200x100/fff/000&text=C" alt="" data-toggle="modal" data-backdrop="false" data-bigimage="https://dummyimage.com/2000x1000/000/fff&text=C"  data-target="#vidModel" class="img-fluid">
+        <img src="https://dummyimage.com/200x100/fff/000&text=D" alt="" data-toggle="modal" data-backdrop="false" data-bigimage="https://dummyimage.com/2000x1000/000/fff&text=D"  data-target="#vidModel" class="img-fluid">
+        <img src="https://dummyimage.com/200x100/fff/000&text=E" alt="" data-toggle="modal" data-backdrop="false" data-bigimage="https://dummyimage.com/2000x1000/000/fff&text=E"  data-target="#vidModel" class="img-fluid">
     </div>
 </div>
-<!--
-<section>
-<div class="container gal-container">
-<div class="col-md-12 col-sm-12 co-xs-12 gal-item">
-<div class="box">
-<a href="#" data-toggle="modal" data-target="#v1">
-<img src="https://img.youtube.com/vi/xuiuHIRoYUA/maxres3.jpg">
-</a>
-<div class="modal fade" id="v1" tabindex="-1" role="dialog">
-<div class="modal-dialog" role="document">
-<div class="modal-content" >
-<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-<div class="modal-body">
-<iframe class="embed-responsive embed-responsive-16by9 col-xs-12 text-center" src="https://www.youtube.com/embed/xuiuHIRoYUA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-</div>
-<div class="col-md-12 description">
-<h4>Apollo Bay Breakwall</h4>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-12 col-sm-12 co-xs-12 gal-item">
-<div class="box">
-<a href="#" data-toggle="modal" data-target="#2">
-<img src="https://images.unsplash.com/photo-1513386273606-4c7ff194e00c?auto=format&fit=crop&w=1500&q=80">
-</a>
-<div class="modal fade" id="2" tabindex="-1" role="dialog">
-<div class="modal-dialog" role="document">
-<div class="modal-content">
-<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-<div class="modal-body">
-<img src="https://images.unsplash.com/photo-1513386273606-4c7ff194e00c?auto=format&fit=crop&w=1500&q=80">
-</div>
-<div class="col-md-12 description">
-<h4>The Address Play Equitment</h4>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-12 col-sm-12 co-xs-12 gal-item">
-<div class="box">
-<a href="#" data-toggle="modal" data-target="#3">
-<img src="https://images.unsplash.com/photo-1513235338807-267f06d8a296?auto=format&fit=crop&w=891&q=80">
-</a>
-<div class="modal fade" id="3" tabindex="-1" role="dialog">
-<div class="modal-dialog" role="document">
-<div class="modal-content">
-<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-<div class="modal-body">
-<img src="https://images.unsplash.com/photo-1513235338807-267f06d8a296?auto=format&fit=crop&w=891&q=80">
-</div>
-<div class="col-md-12 description">
-<h4>Rough Meets Calm</h4>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
--->
+
+<!-- Modal -->
+
+<div class="modal fade" id="vidModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe id="video" class="embed-responsive-item" src=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+

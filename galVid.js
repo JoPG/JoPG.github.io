@@ -1,26 +1,29 @@
 $(document).ready(function() {
 
 // Gets the video src from the data-src on each button
-var $imageSrc = "null";
-$('.gallery img').click(function() {
-    $imageSrc = $(this).data('bigimage');
-    console.log($imageSrc);
+var $videoSrc = "null";  
+$('.v-gallery img').click(function() {
+    console.log("Hello World")
+    $videoSrc = $(this).data('bigimage');
+    console.log($videoSrc);
 });
+
   
   
   
 // when the modal is opened autoplay it  
-$('#myModal').on('shown.bs.modal', function (e) {
+$('#vidModel').on('shown.bs.modal', function (e) {
     
 // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-console.log("Image Modal loaded")
-$("#image").attr('src', $imageSrc  ); 
+console.log("Video Modal loaded")
+$("#video").attr('src', $videoSrc  ); 
 })
   
+  
 // reset the modal image
-$('#myModal').on('hide.bs.modal', function (e) {
+$('#vidModel').on('hide.bs.modal', function (e) {
     // a poor man's stop video
-    $("#image").attr('src',''); 
+    $("#video").attr('src',''); 
 }) 
     
     
