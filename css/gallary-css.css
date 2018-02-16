@@ -1,15 +1,55 @@
+/*
+.modal-content {
+    height: 100%;
+    width: 100%;
+}
+*/
 
-.modal-dialog {
-      max-width: 800px;
-      margin: 30px auto;
-  }
+.modal {
+    background: rgba(0,0,0, .6);
+}
 
+.vertical-alignment-helper {
+    display: table;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
 
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    top: 0;
+    border: none;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-header span {
+    color: white;
+}
 
 .modal-body {
-  position:relative;
-  padding:0px;
+    position: relative;
+    padding: 0px;
+    margin: auto;
 }
+
+/*
+
+
+
 .close {
   position:absolute;
   right:-30px;
@@ -20,7 +60,8 @@
   color:#fff;
   opacity:1;
 }
+*/
 
 #image {
-  min-height:200px;
+    min-height: 200px;
 }
